@@ -1,5 +1,20 @@
 # HiCo Thermal Changelog
 
+## HiCo Thermal v1.1.1
+
+#### ✨ Features
+
+- **devices:** update Xiaomi / Redmi / POCO device profiles (212 devices) (`513f7c0`)
+
+#### 📝 Other Changes
+
+- check the public release repository before building (`677232d`)
+- devices workflow: scan Redmi and POCO groups too (`0187f0e`)
+- Real-time throttling monitor (hicod monitor + WebUI Monitor tab) (`f4e2028`)
+- Redesign the WebUI: tabs, gauges, Flux game list, EN/ID (`1f78302`)
+
+
+
 ## HiCo Thermal v1.0.1
 
 #### ✨ Features
