@@ -1,5 +1,24 @@
 # HiCo Thermal Changelog
 
+## HiCo Thermal v1.2.0
+
+#### 🐛 Bug Fixes
+
+- **device:** detect HyperOS by its MIUI UI code and name custom ROMs (`2c5baaa`)
+
+#### 📝 Other Changes
+
+- avoid GCC 13 -Wrestrict false positive in Release builds (`d6d4094`)
+- match the per-device tuning table columns (`d9ae1c5`)
+- ROM detection: custom ROMs on Xiaomi vendors are not HyperOS (`280968a`)
+- Safety guard: release per tripped sensor, graduated protection, stop HAL loop (`163bf63`)
+- Per-device thermal templates for the Xiaomi database (`d9d69f8`)
+- mi_thermald verifier: check caps only on raised sections; keep no decrypted copies (`3ed2440`)
+- Encrypted mi_thermald configs and per-device thermal templates (`791fd4e`)
+- Extreme mode, thermal overclock, templates, Vue WebUI; find devices on custom ROMs (`69728cb`)
+
+
+
 ## HiCo Thermal v1.1.1
 
 #### ✨ Features
