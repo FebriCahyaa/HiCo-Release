@@ -1,5 +1,14 @@
 # HiCo Thermal Changelog
 
+## HiCo Thermal v1.2.2
+
+#### 📝 Other Changes
+
+- shorter device line, one line per relax (`94075a6`)
+- heavy throttling only for real caps; say when the caps are vendor's (`15b23cb`)
+
+
+
 ## HiCo Thermal v1.2.1
 
 #### 📝 Other Changes
