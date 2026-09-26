@@ -1,5 +1,14 @@
 # HiCo Thermal Changelog
 
+## HiCo Thermal v1.2.1
+
+#### 📝 Other Changes
+
+- Max level only with headroom below the safety limits (`4514ae1`)
+- save the log to Download (`23fd1e6`)
+
+
+
 ## HiCo Thermal v1.2.0
 
 #### 🐛 Bug Fixes
