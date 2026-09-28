@@ -1,5 +1,79 @@
 # HiCo Thermal Changelog
 
+## HiCo Thermal v1.3.0
+
+#### ✨ Features
+
+- **ingest:** local-seed + delta-only ingest pipeline (`2bad6da`)
+- **sources:** expand ingest coverage to 16 Custom ROMs + 3 OEM dumps (`df71304`)
+- **evidence:** phase 2.6a deterministic evidence parsers (`4f19498`)
+- **evidence:** add rich canonical evidence resolver (`bde40e7`)
+- **evidence:** add canonical relationship evidence layer (`518fcee`)
+- **relationships:** add universal source relationship graph (`c354e23`)
+- **collector:** gate sync with thermal candidates (`71140db`)
+- **filter:** add universal thermal candidate filter (`4de821c`)
+- **discovery:** add universal repository discovery and safe merge (`9b42137`)
+- **schema:** add universal device rom thermal model (`c0516aa`)
+- **ci:** add optional AWS CodeBuild offload for thermal ingestion (`80c949c`)
+- **database:** add original-versus-candidate thermal tables (`4914af4`)
+- **database:** add multi-source thermal ingestion and mapping (`66afb58`)
+- **tools:** add generic thermal codec and unpack pipeline (`187023a`)
+
+#### 🐛 Bug Fixes
+
+- remove -mfpu= flag from arm64-v8a build flags (`e8bab73`)
+- skip non-dict JSON files in merge_mappings (`06e4ce4`)
+- **database:** archive ingest shards before artifact upload (`f1bb73c`)
+- **aws:** allow CloudFormation to read role inline policies (`de00f65`)
+- **ci:** align AWS OIDC and CodeBuild batch limits (`d54b3e7`)
+- **ci:** remove device-specific thermal test dependency (`d04f41a`)
+- **ci:** use the actual CMake host binary path in database preflight (`f4357f0`)
+- **ci:** refresh WebUI integrity baseline (`9f3edd2`)
+- **ci:** harden thermal matrix execution and artifact handoff (`a15ad70`)
+- **ci:** keep ingestion matrix output within GitHub limits (`31a47c7`)
+- **ci:** refresh WebUI integrity manifest (`2fbaacc`)
+
+#### ♻️ Refactoring
+
+- **thermal:** switch to local collection and HiCo generation (`f92111e`)
+- **monitor:** make live monitoring thermal-only (`9688e46`)
+
+#### 📚 Documentation
+
+- document thermal database architecture and provenance (`b644103`)
+
+#### 📦 Build & Dependencies
+
+- ARM64/ARMv7 architecture tuning flags + O3 + linker ICF (`785fa13`)
+
+#### 🔧 CI
+
+- **evidence:** add coverage audit for multi-OEM pilot (`354fcda`)
+- **evidence:** add multi-OEM evidence pilot (`7d8f578`)
+- **evidence:** verify canonical source relationships (`4decaa9`)
+- diagnose GitHub OIDC claims (`e8aef70`)
+- **aws:** move infrastructure deployment to GitHub Actions (`6f77cdb`)
+- **release:** build the thermal Monitor WebUI in release packages (`1b81dd3`)
+- replace Xiaomi-only device workflow with unified pipelines (`070e673`)
+
+#### 🧹 Maintenance
+
+- **repo:** introduce two-zone layout — stock/ (input) and generated/ (derived) (`7bea9d7`)
+
+#### 📝 Other Changes
+
+- Tamper detection: signed releases, runtime self-check, revocation list (`2af50b2`)
+- **2026-09-28-run2:** fetch delta from upstream (`2b3b4ff`)
+- ROM org vendor blobs and MediaTek thermal policies (`fe49b71`)
+- Thermal per scenario and a thermal-focused WebUI (`07b83f0`)
+- seed custom-ROM device trees and TheMuppets thermal blobs (`206c2d6`)
+- delta-only pipeline that works, vendor blobs, Daily preset (`d81142e`)
+- Ingest thermal from LineageOS device trees + TheMuppets vendor blobs (`7389df9`)
+- Daily preset, thermal coverage roadmap, ingest scaffolding (`f82d8f8`)
+- seed normalized thermal database from repository records (`43330ae`)
+
+
+
 ## HiCo Thermal v1.2.2
 
 #### 📝 Other Changes
