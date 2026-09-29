@@ -1,7 +1,7 @@
 {
-  "version": "v1.4.0",
-  "versionCode": 127,
-  "zipUrl": "https://github.com/FebriCahyaa/HiCo-Release/releases/download/v1.4.0/hico-1.4.0-127-3c6ecfe0-release-universal.zip",
+  "version": "v1.4.1",
+  "versionCode": 129,
+  "zipUrl": "https://github.com/FebriCahyaa/HiCo-Release/releases/download/v1.4.1/hico-1.4.1-129-a61cad02-release-universal.zip",
   "changelog": "https://raw.githubusercontent.com/FebriCahyaa/HiCo-Release/main/changelog.md",
-  "sha256": "bc537c91a1f7215e65bfcd6bf04c03abcfcd0221c7c5d719425c6cf1f70caf21"
+  "sha256": "32474a64fa7725e79119abd5e4e3b5a8cf9be93d58d64378e917d68fa508c530"
 }

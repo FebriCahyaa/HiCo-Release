@@ -1,5 +1,13 @@
 # HiCo Thermal Changelog
 
+## HiCo Thermal v1.4.1
+
+#### 🐛 Bug Fixes
+
+- **thermal:** classify config ownership from mountinfo + journal, not "is mounted" (`f72e201`)
+
+
+
 ## HiCo Thermal v1.4.0
 
 #### ✨ Features
