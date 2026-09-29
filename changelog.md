@@ -1,5 +1,44 @@
 # HiCo Thermal Changelog
 
+## HiCo Thermal v1.4.0
+
+#### ✨ Features
+
+- **webui:** About as HiCo's identity, system and trust page (`6334fd7`)
+- **webui:** native diagnostic screen for Log (`67d81da`)
+- **webui:** Android-system-settings layout for Settings and Advanced (`c9ed0cc`)
+- **webui:** native-feeling Scenarios and Presets controls (`7bd05c6`)
+- **webui:** thermal monitor as the primary native-utility screen (`ad582a9`)
+- **webui:** floating glass navigation and hero temperature readout (`a87cf45`)
+
+#### 🐛 Bug Fixes
+
+- **tests:** update stale mapping-matrix artifact name assertion (`32f811e`)
+- **ci:** stop full-mapping merge job from corrupting shard JSON (`1e79f04`)
+- **tests:** use correct vendor subdirectory path for stale-table check (`654ed47`)
+- **ci:** regenerate WebUI integrity manifest after native-evolution changes (`58cc121`)
+- **tests:** update stale generated_from() assertion for multi-vendor db (`5d397e1`)
+- **ingest:** rom-vendor-blobs ignored --jobs, always ran 32 parallel probes (`d01c20f`)
+- **seed:** correct exit-code capture for sparse_fetch.py failures (`7e05e6e`)
+- **webui:** global consistency pass across all redesigned screens (`8ade2f1`)
+
+#### 🧹 Maintenance
+
+- ignore tools/seed_local.sh run logs (`a93ff3d`)
+
+#### 📝 Other Changes
+
+- **2026-09-29-run3:** fetch delta from upstream (`2902262`)
+- remap HiCo thermal database (`d7594a7`)
+- **seed:** fetch batch thermal files (`57a8a8e`)
+- add seed_local.sh — complete one-time local seed script (`6b965b0`)
+- tadiphone is public — no token needed, fix fallback bug (`f6633f8`)
+- multi-vendor OEM dumps, ROM-gating filter, multi-branch fetch (`253eade`)
+- expand to multi-vendor — Samsung, OnePlus, OPPO, Realme, Motorola, Google (`5664cb0`)
+- provision production integrity key (`160e329`)
+
+
+
 ## HiCo Thermal v1.3.0
 
 #### ✨ Features
